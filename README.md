@@ -59,4 +59,6 @@ Give Codex a character reference or a short natural-language premise and ask for
 
 ## License
 
-MIT
+MangaWeave is currently licensed under the [GNU Affero General Public License v3.0](LICENSE). If you modify it and provide the modified work to users over a network, the AGPL network-source provisions may apply.
+
+The initial repository revision was published under the MIT License. See [NOTICE](NOTICE) for the license transition and historical scope.
