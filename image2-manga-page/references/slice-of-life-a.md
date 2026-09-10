@@ -4,9 +4,7 @@
 
 Reaction-driven, steady-panel everyday manga.
 
-Structural study reference: works such as *Yotsuba&!*.
-
-The goal is not to imitate a specific artist. Extract the narrative logic.
+This mode encodes a reaction-driven everyday-page grammar distilled from internal study notes and generation tests.
 
 ## Narrative engine
 
