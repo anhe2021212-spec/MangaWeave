@@ -3,15 +3,12 @@ name: image2-manga-page
 description: >
   Turn simple user-provided character, relationship, scene, and mood information into a readable
   one-page black-and-white manga image. The skill couples narrative, paneling, art direction,
-  background density, character acting, screentone, black/white structure, and dialogue rhythm.
-version: 0.2.0
-tags:
-  - image2
-  - manga
-  - black-and-white
-  - screentone
-  - shoujo
-  - slice-of-life
+  page hierarchy, density control, background density, character acting, screentone,
+  black/white structure, and dialogue rhythm.
+metadata:
+  version: "0.5.0-test"
+  status: "local-test-not-yet-generation-validated"
+  project: "MangaWeave"
 ---
 
 # Image2 Manga Page
@@ -34,24 +31,24 @@ Do **not** require the user to provide panel-by-panel direction unless they expl
 
 ## Core principle
 
-**Narrative, art direction, and paneling are one coupled system.**
+**Narrative, art direction, paneling, and page hierarchy are one coupled system.**
 
 Do not treat them as:
-1. story,
-2. visual style,
-3. panel layout.
+1. story
+2. visual style
+3. panel layout
+4. empty-space polish
 
-Instead, decide what the page needs to communicate, then choose:
+Instead, decide what the page needs to communicate, then choose together:
 - story beat
 - character action
 - shot distance
 - panel size and shape
 - black/white balance
+- page-weight hierarchy
 - screentone density
 - background detail
 - dialogue rhythm
-
-as one coordinated decision.
 
 ## Supported modes
 
@@ -69,6 +66,8 @@ Always read:
 - `references/story-from-user-input.md`
 - `references/black-white-medium.md`
 - `references/panel-grammar.md`
+- `references/page-density-control.md`
+- `references/reference-handling.md`
 
 Then read exactly one mode file:
 
@@ -110,7 +109,19 @@ Avoid:
 - random conflict unrelated to the setting
 - turning one character into a helper NPC
 
-### 3. Decide the page function
+### 3. Choose identity-anchor strategy
+
+Use `references/reference-handling.md`.
+
+For black-and-white manga, prefer this order:
+
+1. text-only identity anchor
+2. mono-character anchor
+3. direct colored image reference
+
+Do not let colored or softly rendered reference images silently override manga print language.
+
+### 4. Decide the page function
 
 Choose one dominant function:
 
@@ -124,7 +135,7 @@ Choose one dominant function:
 
 A page can contain several beats, but it should have one dominant purpose.
 
-### 4. Build the page as a sequence
+### 5. Build the page as a sequence
 
 Use beginning → development → turn → landing.
 
@@ -140,7 +151,24 @@ A panel may exist only to:
 
 Not every panel needs to be beautiful or information-dense.
 
-### 5. Choose panel grammar from narrative need
+### 6. Build page hierarchy before panel count
+
+Use `references/page-density-control.md`.
+
+Do **not** start from “make 5 or 6 even panels.”
+
+Start from roles:
+
+- one dominant panel
+- one or two support panels
+- one or two micro / pause / insert panels
+- one landing or aftertaste panel
+
+A page may be sparse without being uniform.
+
+**Breathing comes from contrast, not uniform simplicity.**
+
+### 7. Choose panel grammar from narrative need
 
 Use `references/panel-grammar.md`.
 
@@ -148,9 +176,11 @@ Panel size follows narrative importance.
 
 Panel shape follows function.
 
-Do not add irregular panels merely to make the page look “manga-like.”
+Do not add irregular panels merely to make the page look manga-like.
 
-### 6. Lock true black-and-white print language
+Do not remove irregularity so completely that every page becomes a calm grid.
+
+### 8. Lock true black-and-white print language
 
 Use `references/black-white-medium.md`.
 
@@ -158,35 +188,7 @@ This is a hard requirement.
 
 If the result looks sepia, beige, warm gray, painterly, or like a desaturated illustration, treat the medium as failed even if the composition is good.
 
-### 7. Handle reference images correctly
-
-If user reference images are present:
-
-Use them for:
-- identity
-- silhouette
-- hairstyle
-- body proportion
-- clothing logic
-- stable distinguishing traits
-
-Unless the user explicitly asks otherwise, do **not** inherit:
-- color palette
-- lighting model
-- painterly rendering
-- soft shading
-- illustration finish
-- background treatment
-
-For black-and-white manga tasks, requested manga medium outranks the rendering style of character reference images.
-
-Priority:
-1. requested manga medium
-2. page storytelling function
-3. character identity
-4. rendering style of reference images
-
-### 8. Generate directly
+### 9. Generate directly
 
 The assistant should perform the manga design internally and call the image generation tool.
 
@@ -194,7 +196,7 @@ Do not expose an internal prompt scaffold to the user unless they ask for it.
 
 Do not ask the user to rewrite their request into image-model language.
 
-### 9. Evaluate and retry by layer
+### 10. Evaluate and retry by layer
 
 Use `references/evaluation-and-retry.md`.
 
@@ -206,7 +208,9 @@ Identify whether the failure is:
 - story
 - character acting
 - background density
-- panel hierarchy
+- density / breathing
+- page hierarchy
+- panel geometry
 - text
 
 Then correct only the failed layer where possible.
@@ -222,7 +226,7 @@ Then correct only the failed layer where possible.
 7. Silence, empty space, repeated framing, and reaction-only panels are valid tools.
 8. Reference images do not override the requested medium.
 9. The assistant may fill gaps, but should not invent unnecessary permanent character traits.
-10. If exact text rendering is unreliable, prioritize page storytelling over long dialogue.
+10. Do not make the page evenly sparse. Create contrast between large and small, dense and quiet, framed and open, steady and interrupted.
 
 ## Mode routing
 
@@ -237,6 +241,7 @@ Then correct only the failed layer where possible.
 - gaze, hands, distance, hesitation, embarrassment, or attention are central
 - the user wants romantic or emotionally delicate manga language
 - subjective attention should influence background and panel shape
+- the page should have more asymmetric hierarchy or one clearly dominant emotional panel
 
 If both apply, choose the one matching the requested emotional center:
 - “what happened and how they reacted” → slice-of-life
@@ -246,8 +251,8 @@ If both apply, choose the one matching the requested emotional center:
 
 Examples are evidence and demonstrations, not mandatory templates.
 
-- `examples/static-electricity-laundromat.md` — successful small-event page showing how narrative, panel hierarchy, background density, object causality, and black-and-white treatment work together.
-- `examples/case-study-notes.md` — development notes from successful and failed tests.
+- `examples/static-electricity-laundromat.md`
+- `examples/case-study-notes.md`
 
 ## Output behavior
 

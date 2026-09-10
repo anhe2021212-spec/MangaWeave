@@ -51,6 +51,17 @@ Core rule:
 
 > Let character behavior create the entertainment.
 
+## Hierarchy tendency
+
+Slice-of-life pages do not need aggressive visual distortion.
+
+But they still need:
+- one more important beat
+- one quieter reaction or pause
+- one landing
+
+Do not let stability become sameness.
+
 ## Background strategy
 
 The setting must be clear, but background density should be low after orientation is established.
@@ -102,6 +113,9 @@ Restore one spatial anchor.
 
 ### Feels like illustration collage
 Strengthen panel-to-panel causality and repeated setups.
+
+### Too evenly sparse
+Reintroduce one stronger beat, one smaller reaction panel, and a clearer landing.
 
 ## Success test
 

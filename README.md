@@ -2,14 +2,16 @@
 
 Teaching image models to think in manga pages, not illustration grids.
 
-MangaWeave is a Codex skill for turning compact character, relationship, scene, and mood descriptions into readable one-page black-and-white manga. It couples narrative beats, panel hierarchy, character acting, background density, screentone, black/white structure, and dialogue rhythm instead of treating them as separate stages.
+MangaWeave is a Codex skill for turning compact character, relationship, scene, and mood descriptions into readable one-page black-and-white manga. It couples narrative beats, panel hierarchy, page-density contrast, character acting, reference handling, screentone, black/white structure, and dialogue rhythm instead of treating them as separate stages.
 
 ## What it focuses on
 
 - Sequential storytelling rather than a collage of standalone illustrations
 - True black-and-white print language rather than desaturated digital painting
 - Panel size and shape driven by narrative function
+- Deliberate contrast between dominant, supporting, and quiet panels
 - Background detail that follows spatial need and character attention
+- Identity-anchor strategies that keep colored references from overriding manga print language
 - Visible character or relationship shifts within a single page
 - Layer-specific evaluation and retry guidance
 
@@ -18,25 +20,23 @@ The current refined modes are:
 - `slice-of-life-a` — reaction-driven everyday manga
 - `shoujo-a` — relationship-driven emotional amplification
 
-## Example
+## Historical example
 
-![Static Electricity at the Laundromat](image2-manga-skill/examples/static-electricity-laundromat.png)
-
-The accompanying [case description](image2-manga-skill/examples/static-electricity-laundromat.md) explains how a missing sock, static electricity, panel hierarchy, and background reduction become one page-sized story.
+The [static-electricity case description](image2-manga-page/examples/static-electricity-laundromat.md) explains how a small laundromat incident, reaction chain, panel hierarchy, and background reduction become one page-sized story. It is historical evidence rather than a fixed template.
 
 ## Install for Codex
 
-Clone or copy `image2-manga-skill` into your Codex skills directory:
+Clone or copy `image2-manga-page` into your Codex skills directory:
 
 ```text
-~/.codex/skills/image2-manga-skill/
+~/.codex/skills/image2-manga-page/
 ```
 
 Or install it from this repository with the Codex skill installer using:
 
 ```text
 repository: anhe2021212-spec/MangaWeave
-path: image2-manga-skill
+path: image2-manga-page
 ```
 
 The skill is automatically discoverable as `image2-manga-page`.
@@ -47,8 +47,11 @@ The skill is automatically discoverable as `image2-manga-page`.
 MangaWeave/
 |-- README.md
 |-- LICENSE
-`-- image2-manga-skill/
+|-- NOTICE
+`-- image2-manga-page/
     |-- SKILL.md
+    |-- CHANGELOG.md
+    |-- TESTING-NOTES.md
     |-- examples/
     `-- references/
 ```

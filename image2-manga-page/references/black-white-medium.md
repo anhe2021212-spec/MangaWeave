@@ -91,12 +91,15 @@ Treat the medium as failed when any of these dominate:
 
 Composition can be excellent and the result can still fail this skill if the medium is wrong.
 
-## Reference-image override rule
+## Positive production reminder
 
-When colored or softly rendered character reference images are supplied:
+Do not only “remove color.”
 
-- extract identity
-- discard their rendering language
-- reconstruct the characters using manga line, black mass, white paper, and screentone logic
+Actively build the page from:
+- white paper
+- black masses
+- line drawing
+- tone patches
+- open empty areas
 
-Requested medium outranks reference rendering style.
+The viewer should feel that the page was conceived for monochrome print from the beginning.

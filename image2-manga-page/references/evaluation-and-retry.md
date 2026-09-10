@@ -14,28 +14,35 @@ Do not judge only by beauty.
 - Is the change visible?
 
 ### 3. Panel hierarchy
-- Are important beats larger or more isolated?
-- Are minor beats allowed to stay small?
-- Is there breathing room?
+- Is there one dominant panel or dominant beat?
+- Are support panels actually subordinate?
+- Is at least one interruption, pause, or micro-beat present?
+- Does the page avoid feeling like an even grid?
 
-### 4. Medium authenticity
+### 4. Density / breathing
+- Is there at least one low-information or pause panel?
+- Does breathing come from contrast rather than universal emptiness?
+- Are all panels equally loud? If yes, failure.
+- Are all panels equally sparse? If yes, also failure.
+
+### 5. Medium authenticity
 - Is the page truly black-and-white?
 - Are white paper, solid black, tone, and line texture doing the shading work?
 - Is there any sepia/beige wash?
 - Does it still look like rendered illustration?
 
-### 5. Background discipline
+### 6. Background discipline
 - Was the setting established?
 - Does background retreat only after it is no longer needed?
 - Is background density related to attention?
 
-### 6. Character performance
+### 7. Character performance
 - Do poses read clearly?
 - Are expressions specific?
 - Do characters act according to supplied traits?
 - Are they doing something rather than posing?
 
-### 7. Mode fidelity
+### 8. Mode fidelity
 
 #### Slice-of-life A
 - behavior and timing over spectacle
@@ -46,8 +53,9 @@ Do not judge only by beauty.
 - attention and relationship shift over external plot
 - close-ups have emotional purpose
 - irregular panels have narrative purpose
+- hierarchy is visibly asymmetrical
 
-### 8. Text
+### 9. Text
 - Are bubbles readable?
 - Is dialogue short enough?
 - If exact text is poor, should a later typesetting pass handle it?
@@ -69,6 +77,7 @@ Action:
 - strengthen medium lock
 - reduce rendering language
 - reassert identity-only use of reference images
+- prefer text-only or mono-character anchors
 
 ## Page too busy
 Action:
@@ -76,15 +85,19 @@ Action:
 - remove decorative effects
 - reduce unnecessary close-ups
 - simplify panel geometry
+- assign one dominant panel and demote the others
 
-## Page too boring
-Do not immediately add dramatic camera angles.
+## Page too bland / average
+Symptoms:
+- all panels equally important
+- all panels equally sparse
+- tidy but emotionally flat
 
-Check:
-- is the reaction specific?
-- is there a real turn?
-- does the final panel change something?
-- does panel size reflect importance?
+Action:
+- create one dominant panel
+- add one micro interruption or insert
+- vary panel sizes more strongly
+- allow one open / diagonal / border-breaking beat when the mode supports it
 
 ## Page confusing
 Action:
@@ -99,6 +112,7 @@ Check:
 - what remains unsaid?
 - what physical cue leaks the feeling?
 - what changed in distance or perception?
+- where is the dominant emotional panel?
 
 ## Slice-of-life feels staged
 Check:

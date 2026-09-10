@@ -32,6 +32,22 @@ Reference images can silently override the requested medium unless the skill exp
 Resulting rule:
 Requested manga medium outranks reference rendering style.
 
+## Failed test — evenly sparse v4 pages
+
+Observed failure:
+- breathing room improved
+- black-and-white handling improved somewhat
+- page hierarchy became too average
+- many panels were similarly weighted
+- asymmetry and border-breaking charm weakened
+
+Lesson:
+Breathing cannot be solved only by reducing density.
+Page hierarchy must be explicitly designed.
+
+Resulting rule:
+Breathing comes from contrast, not uniform simplicity.
+
 ## Evidence policy
 
 When future tests reveal a stable rule:

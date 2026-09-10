@@ -48,9 +48,30 @@ Primary:
 - body orientation
 - silence
 - selective atmosphere
+- page hierarchy contrast
 
 Secondary:
 - external plot complexity
+
+## Hierarchy rule
+
+Shoujo-A pages should usually show a **clear asymmetry of importance**.
+
+Aim for:
+- one dominant emotional panel
+- one or two support panels
+- one micro/insert/pause panel
+- at least one clear hierarchy change
+
+Hierarchy change may come from:
+- a visibly larger panel
+- a narrow vertical insert
+- an open unframed or weakly framed panel
+- a diagonal cut
+- a border-breaking figure
+- a strongly isolated local close-up
+
+Do not reduce the page into evenly sparse rectangles.
 
 ## Panel tendency
 
@@ -61,6 +82,7 @@ Use more:
 - white space
 - character showcase panels
 - local close-ups
+- open panels
 
 But every irregular panel needs a reason.
 
@@ -143,6 +165,9 @@ Ask:
 - which small gesture leaked the feeling?
 - what changed in distance or perception?
 
+### Too evenly sparse
+Rebuild the page around one dominant emotional panel and at least one smaller interruption panel.
+
 ## Success test
 
 Ask:
@@ -150,5 +175,6 @@ Ask:
 - Does a small relationship shift become legible?
 - Do close-ups and background reduction have emotional reasons?
 - Does the strongest panel represent changed perception rather than generic beauty?
+- Is the page asymmetrical enough to feel emotionally alive?
 
 If yes, the mode is working.
