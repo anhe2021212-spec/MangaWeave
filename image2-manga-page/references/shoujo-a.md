@@ -4,9 +4,7 @@
 
 Relationship-driven, emotional-amplification shoujo manga.
 
-Structural study reference: works such as *A Sign of Affection*.
-
-The goal is not to imitate a specific artist. Extract the narrative logic.
+This mode encodes relationship-driven emotional page grammar distilled from internal study notes and generation tests.
 
 ## Narrative engine
 
