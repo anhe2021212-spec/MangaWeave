@@ -1,18 +1,37 @@
 MangaWeave
 
-Current project license
------------------------
+Current project licensing
+-------------------------
 
 Copyright (C) 2026 MangaWeave contributors.
 
-Project material for which this repository's contributors have licensing
-authority, and new modifications first published from 2026-09-11 onward, are
-licensed under the GNU Affero General Public License v3.0 unless a file says
-otherwise. See LICENSE.
+Except where a file or notice states otherwise, Project material for which
+this repository's contributors have sufficient licensing authority, and new
+modifications first published from 2026-09-11 onward, are distributed under
+the GNU Affero General Public License v3.0 only (SPDX: AGPL-3.0-only). See
+LICENSE.
+
+The `AGPL-3.0-only` designation means version 3 of the GNU Affero General
+Public License only; this notice does not grant permission under a later
+version merely because such a version may exist in the future.
+
+Separate commercial licenses may also be offered for Project material for
+which the relevant licensor has sufficient rights to do so. Commercial use
+does not by itself require a separate commercial license: users may use the
+AGPL edition commercially while complying with the AGPL. See
+COMMERCIAL-LICENSING.md.
+
+Contributions accepted under the Project's Contributor License Agreement may
+be included in both the AGPL edition and separately licensed editions while
+contributors retain ownership of their contributions. See CLA.md and
+CONTRIBUTING.md.
+
+Historical MIT revision
+-----------------------
 
 The initial revision of this repository was published under the MIT License.
-This change records the license used for current and future project releases;
-it does not rewrite the license text that accompanied historical revision
+The current licensing structure does not retroactively alter the license text
+that accompanied historical revision
 18f2b936282eb34e723094cb89901f0dfd791573.
 
 Copyright and attribution notices belonging to third-party material, if any,
