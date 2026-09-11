@@ -48,6 +48,9 @@ MangaWeave/
 |-- README.md
 |-- LICENSE
 |-- NOTICE
+|-- CONTRIBUTING.md
+|-- CLA.md
+|-- COMMERCIAL-LICENSING.md
 `-- image2-manga-page/
     |-- SKILL.md
     |-- CHANGELOG.md
@@ -60,8 +63,14 @@ MangaWeave/
 
 Give Codex a character reference or a short natural-language premise and ask for a one-page black-and-white manga. The skill performs the story and page design internally; users do not need to write panel-by-panel image prompts.
 
-## License
+## License and commercial licensing
 
-MangaWeave is currently licensed under the [GNU Affero General Public License v3.0](LICENSE). If you modify it and provide the modified work to users over a network, the AGPL network-source provisions may apply.
+MangaWeave is distributed under the [GNU Affero General Public License v3.0 only](LICENSE) (`AGPL-3.0-only`), except where a file or notice states otherwise.
+
+The AGPL permits commercial use. If you modify MangaWeave and make the modified program available for users to interact with over a network, the AGPL's network-source provisions may require you to offer the corresponding source code to those users.
+
+For organizations that want to use eligible MangaWeave material in a proprietary product or service under separate terms, commercial licensing may also be available. See [COMMERCIAL-LICENSING.md](COMMERCIAL-LICENSING.md).
+
+Contributions are accepted under the policy in [CONTRIBUTING.md](CONTRIBUTING.md) and the [Contributor License Agreement](CLA.md), which preserves contributors' ownership while giving the Project the rights needed to maintain both the AGPL edition and separate commercial licensing where applicable.
 
 The initial repository revision was published under the MIT License. See [NOTICE](NOTICE) for the license transition and historical scope.
